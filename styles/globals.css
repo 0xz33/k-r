@@ -1,0 +1,71 @@
+/* styles/globals.css */
+
+/* Reset some default browser styles */
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #282828;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Spotify-like styles for the playlist showcase */
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.playlist-card {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: #1db954;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.playlist-card:hover {
+  background-color: #1ed760;
+}
+
+/* Add some global styles for buttons */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background-color: #1db954;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1ed760;
+}
+
+/* Add some global styles for inputs */
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+/* Add a global style for error messages */
+.error-message {
+  color: #ff0000;
+  margin-bottom: 20px;
+}

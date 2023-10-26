@@ -1,0 +1,31 @@
+{
+  "name": "Kharmha Records",
+  "version": "1.0.0",
+  "description": "A simple Next.js app that showcases Spotify playlists from a specific user using Spotify's API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "spotify",
+    "api",
+    "playlists"
+  ],
+  "author": "z33",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "next": "^14.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}
